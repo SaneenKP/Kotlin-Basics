@@ -4,6 +4,7 @@ class Box2(
 	val height: Int,
 ){
 	
+	//init block is called whenever an object is created.
 	init{
 		println("init block called with length = ${length} , width = ${width} , height = ${height}")
 
